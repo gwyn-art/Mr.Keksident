@@ -1,12 +1,31 @@
-main{
+main, body{
     width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+main{
+     background-color: rgba(255, 192, 7, 0.57);
 }
 game {
     width: 415px;
+    padding-left: 3px;
     display: block;
     margin: 0 auto;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 6px;
 }
 block{
     width: 100px;
+    box-sizing: border-box;
     display: inline-block;
+    line-height: 3;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
 }
+/*
+[id^="block-0"] {
+    
+}*/
