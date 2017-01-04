@@ -1,0 +1,12 @@
+main{
+    width: 100%;
+}
+game {
+    width: 415px;
+    display: block;
+    margin: 0 auto;
+}
+block{
+    width: 100px;
+    display: inline-block;
+}
